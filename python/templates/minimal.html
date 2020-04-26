@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Presidential Precision Medicine Analysis Result</title>
+	<style type="text/css">
+a { color: rgb( 109, 187, 235 ) }	
+
+.toolbutton { margin-left: 60px; }
+	</style>
+</head>
+<body>
+
+	<div style="margin-left: 20%; max-width: 600px">
+		<div style="padding: 15px; border: 1px solid rgb(230,236,240) ">
+			<div id="name_row" style="margin-bottom: 20px;" ><span id="icon"><img src="/static/donald_twitter.png" id="donald_img" align="left" /></span><span style="vertical-align:top;"><b style="margin-left:10px">Donald Fake Trump</b><br /> <span style="margin-left:10px; color: rgb(214,219,223)">@BestDonaldTrump2</span></span></div>
+			<div id="tweet_content" style="margin-bottom: 20px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;">
+{{tweet}}
+			</div>
+			<div style="color: rgb(179,188,195)">12:34pm · 30.2.2020 · <a href=".">The Bestest Tweeter</a></div>
+			<div id="toolbar" style="margin-top: 15px;">
+				<span class="toolbutton"><img src="/static/speech_bubble.png" /> 0</span>
+				<span class="toolbutton"><a href="/retweet?hashed_tweet={{hashed_tweet}}"><img src="/static/retweet.png" /></a> 0</span>
+				<span class="toolbutton"><img src="/static/like.png" /> 0</span>
+				<span class="toolbutton"><img src="/static/advanced.png" /></span>
+			</div>
+		</div>
+
+		<p style="margin-top: 100px">You've got more DNA to analyze? You should be thankful what your country does for you! Do not be greedy!</p>
+
+	<form id="dna_field" action="/" method="post">
+		<fieldset><legend>Enter your DNA</legend>
+
+		<textarea rows="10" cols="75" name="dna" id="dna"></textarea>
+		<br />
+		<input type="submit" value="Get an even better Trump statement NOW! "/>
+		</fieldset>
+	</form>
+	</div>
+
+</body>
+</html> 
+
